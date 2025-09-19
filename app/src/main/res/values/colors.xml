@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============== REQUIRED DEFAULT THEME COLORS ============== -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- ============== YOUR CUSTOM APP COLORS ============== -->
+    <!-- Standard Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#D3D3D3</color>
+
+    <!-- Brand Colors -->
+    <color name="deep_navy">#0B1D39</color>
+    <color name="gold">#FFC857</color>
+    <color name="emerald_green">#009B77</color>
+
+    <!-- Status/Indicator Colors -->
+    <color name="stable_green">#4CAF50</color>
+    <color name="risky_yellow">#FFC107</color>
+    <color name="warning_red">#F44336</color>
+</resources>
