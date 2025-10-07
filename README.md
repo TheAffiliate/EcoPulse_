@@ -55,15 +55,16 @@ To create a production build of your app:
 
 ---
 
-#EcoPulse - Market Trends Analyzer 📈
-A prototype native Android application that provides users with a clean, immediate, and insightful overview of key financial market indicators across stocks, metals, and cryptocurrencies.
+## EcoPulse - Market Trends Analyzer 📈
 
-The app demonstrates a comprehensive understanding of modern Android development, including REST API integration, data visualization (candlestick charts), asynchronous programming with Kotlin Coroutines, and Backend-as-a-Service (BaaS) for user management.
+A prototype native Android application that provides users with a clean, immediate, and insightful overview of key financial market indicators across stocks, metals, and cryptocurrencies. The app demonstrates a comprehensive understanding of modern Android development, including REST API integration, data visualization (candlestick charts), asynchronous programming with Kotlin Coroutines, and Backend-as-a-Service (BaaS) for user management.
 
-#💡 Project Vision
+## 💡 Project Vision
+
 In a volatile economic landscape, retail investors and curious individuals need a simple tool to get a "pulse" of the market without being overwhelmed by complex trading platforms. EcoPulse aims to solve this by aggregating data from diverse asset classes—traditional stocks, safe-haven metals, and volatile cryptocurrencies—into a single, easy-to-digest mobile experience.
 
-#✨ Core Features
+## ✨ Core Features
+
 The application is built around distinct, user-centric features, focusing on data aggregation, analysis, and visualization.
 
 1. Secure User Authentication
@@ -99,7 +100,8 @@ The home screen features a dynamic "Recession Score", a custom algorithm that sy
 
 Provides an at-a-glance, opinionated market sentiment indicator ("Stable," "Caution," "Risky"), demonstrating complex data processing.
 
-#🏗️ Architectural Design & Technology Stack
+## 🏗️ Architectural Design & Technology Stack
+
 The project is built using modern Android development principles and industry-standard tools.
 
 Component	Technology/Library	Justification
@@ -111,7 +113,8 @@ Data Visualization	MPAndroidChart	Powerful, highly customizable charting library
 UI Components	Android XML, Material Design	Ensures a modern, dark-theme-first aesthetic consistent with the platform's design language.
 View Access	View Binding	Provides null-safe and type-safe access to views, eliminating findViewById.
 
-#🚀 Setup and Installation Guide
+##🚀 Setup and Installation Guide
+
 Follow these steps to build and run the project locally.
 
 1. Prerequisites
@@ -151,7 +154,7 @@ Click the Run 'app' button (▶️).
 
 Note: The build.gradle.kts file is configured to read the properties from local.properties and make them available in the app via the BuildConfig class.
 
-#✅ Automated Testing (Future Work)
+## ✅ Automated Testing (Future Work)
 To achieve the "Greatly exceeds the required standard" criteria, implementing automated tests is the next logical step.
 
 Type of Test	Candidate for Testing	Action/Goal
@@ -159,8 +162,8 @@ Unit Tests	generateForecast() and calculateRecessionScore() functions.	Use JUnit
 Integration Tests	API parsing logic.	Use MockWebServer (from OkHttp) to provide fake JSON responses and verify that Retrofit services and data classes parse them correctly.
 UI Tests	User flows, e.g., "tap BTC chip, then check the forecast checkbox."	Use Espresso to simulate user interactions and assert that the chart UI updates as expected.
 
-Export to Sheets
-❗ Known Issues & Limitations
+
+## ❗ Known Issues & Limitations
 Gold (XAU) Data is Mocked: Due to the lack of a free and reliable REST API providing daily OHLC historical data for precious metals, the Gold chart currently uses randomly generated mock data. This serves as a placeholder for a future real API integration.
 
 Forecast Model is Simplistic: The 7-day forecast uses a basic linear regression model. It should be treated as a proof-of-concept demonstration of analytical capability and not as financial advice.
