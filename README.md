@@ -113,7 +113,7 @@ Data Visualization	MPAndroidChart	Powerful, highly customizable charting library
 UI Components	Android XML, Material Design	Ensures a modern, dark-theme-first aesthetic consistent with the platform's design language.
 View Access	View Binding	Provides null-safe and type-safe access to views, eliminating findViewById.
 
-##🚀 Setup and Installation Guide
+## 🚀 Setup and Installation Guide
 
 Follow these steps to build and run the project locally.
 
