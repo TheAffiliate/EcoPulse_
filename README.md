@@ -53,8 +53,7 @@ To create a production build of your app:
 - This starter project is designed to streamline your Android development with Appwrite.
 - Refer to the [Appwrite Documentation](https://appwrite.io/docs) for detailed integration guidance.
 
-================================================================================================================
-
+---
 
 #EcoPulse - Market Trends Analyzer 📈
 A prototype native Android application that provides users with a clean, immediate, and insightful overview of key financial market indicators across stocks, metals, and cryptocurrencies.
